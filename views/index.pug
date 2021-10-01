@@ -1,0 +1,17 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+    h1 Sherri's Portfolio
+    p Please take a peak at my full stack devloper projects to date!
+
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+      each project in projects
+        .cell
+          a(href=`/projects/${project.id}`)
+            img.thumbnail(src=`$, alt='')
+            h5 project.project_name
+
