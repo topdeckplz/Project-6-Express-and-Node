@@ -1,0 +1,52 @@
+{
+    "projects": [{
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": ["When you enter the page, a random quote is displayed. Upon clicking the 'Show Another Quote' button another random, comical quote displays from an array of 10 quotes."],
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link": "https://pholmess.github.io/TechDegree-Project-1/",
+            "gitHub_link": "https://github.com/pholmess/TechDegree-Project-1",
+            "img_urls": ["/static/images/Project1.png", "/static/images/Project1b.png"]
+        },
+
+        {
+            "id": 1,
+            "project_name": "Data Pagination & Filtering",
+            "description": ["Users are brought to a student directory displaying 9 members per page. You may select the page tabs at the bottom of the page to scroll through the directory. Or, you may enter search criteria at the top of the page to find a specific member."],
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link": "https://pholmess.github.io/TechDegree-Project-2/",
+            "gitHub_link": "https://github.com/pholmess/TechDegree-Project-2",
+            "img_urls": ["/static/images/Project2.png", "/static/images/Project2b.png"]
+        },
+
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": ["A conference registration simulation. All information must be entered in the correct format. Some features do not appear until others are completed. Built-in error prevention."],
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link": "https://pholmess.github.io/TechDegree-Project-3/",
+            "gitHub_link": "https://github.com/pholmess/TechDegree-Project-3",
+            "img_urls": ["/static/images/Project3.png", "/static/images/Project3b.png"]
+        },
+
+        {
+            "id": 3,
+            "project_name": "Wheel of Fortune-style Game",
+            "description": ["Players guess letters from the online keyboard. If the letter is a match in the phrase, the letter is revealed and color changes to navy blue. If the letter selected is not in the phrase, the color changes to orange, and a heart life is lost. Players must guess the phrase before losing all 5 heart lives."],
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link": "https://pholmess.github.io/TechDegree-Project-4/",
+            "gitHub_link": "https://github.com/pholmess/TechDegree-Project-4",
+            "img_urls": ["/static/images/Project4.png", "/static/images/Project4b.png", "/static/images/Project4c.png"]
+        },
+
+        {
+            "id": 4,
+            "project_name": "Awesome Startup Employee Directory",
+            "description": ["This is an employee directory containing a search feature. When the user clicks on an employee profile, a modal appears with additional employee information such as home address and birthdate.", "The data for this project comes from an API."],
+            "technologies": "API, JavaScript, CSS, HTML",
+            "live_link": "https://pholmess.github.io/TechDegree-Project-5/",
+            "gitHub_link": "https://github.com/pholmess/TechDegree-Project-5",
+            "img_urls": ["/static/images/Project5a.png", "/static/images/Project5b.png"]
+        }
+    ]
+}
