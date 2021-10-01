@@ -1,7 +1,9 @@
 extends layout.pug
 
 block content
-   h1= message
-   h2= err.status
-   pre #{err.stack}
+  div.container
+    h1= `Server Error`
+    h2= `Error status code: ${err.status} - Server Error`
+    p.error-p= `It's not you...: ${err.message}`
 
+    a.home(href=`/`) Back Home
