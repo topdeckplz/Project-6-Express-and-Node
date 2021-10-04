@@ -9,6 +9,12 @@ const project = require('./project');
 
 const app = express();
 
+//View engine is Pug
+app.set("view engine", "pug");
+
+//Static middleware to serve static files
+app.use('/static', express.static(path.join(__dirname, 'public')));
+
 //Home page route
 app.get('/', function(req, res, next) {
     //log out the home route handler
