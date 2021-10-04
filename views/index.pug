@@ -21,8 +21,15 @@ block content
           //- The text 'Thumbnail' interpolated with the project title for the img's alt attribute
           //- The project title for the h5 element's text
 
-        .cell
-          a(href='#')
-            img.thumbnail(src='https://placehold.it/550x550', alt='')
-            h5 My Site
+  article.portfolio-intro
+    h1 Sherri's Portfolio
+    p Please take a peak at my full stack devloper projects to date!
 
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+      each project in { projects }
+        .cell
+          a(href=`/projects/${project.id}`)
+            img(src=`${projects.img_urls}`, alt='')
+            h5 #{projects.project_name}
